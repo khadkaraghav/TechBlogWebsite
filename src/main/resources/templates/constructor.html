@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>OBJECT-ORIENTED JAVA</title>
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div>
+<br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+        <h3 align="center">Constructors in Java</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <p><h4 class="text-info">Constructors</h4><br>
+
+            A constructor looks like a special method that has the same method name as the class name. In the above Circle class, we define three overloaded versions of constructor Circle(......). A constructor is used to construct and initialize all the member variables. To construct a new instance of a class, you need to use a special "new" operator followed by a call to one of the constructors. For example:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>Circle c1 = new Circle();</ol>
+                <ol>Circle c2 = new Circle(2.0);</ol>
+                <ol>Circle c3 = new Circle(3.0, "red");</ol>
+
+            </div>
+        </div><br><br>
+            A constructor is different from an ordinary method in the following aspects:<br><br>
+
+        <li>The name of the constructor method is the same as the class name. By classname's convention, it begins with an uppercase (instead of lowercase for ordinary methods).</li>
+        <li>Constructor has no return type. It implicitly returns void. No return statement is allowed inside the constructor's body.</li>
+        <li>Constructor can only be invoked via the "new" operator. It can only be used once to initialize the instance constructed. Once an instance is constructed, you cannot call the constructor anymore.</li>
+            <li>Constructors are not inherited.</li><br>
+
+        <h5 class ="text-info">Default Constructor:</h5> A constructor with no parameter is called the default constructor. It initializes the member variables to their default value. For example, the Circle() in the above example initialize member variables radius and color to their default value.<br><br>
+    </div>
+</div>
+
+<div class="jumbotron" align="bottom">
+
+
+    <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+    <ol class="socialmedia">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+    </ol>
+</div>
+</body>
+</html>

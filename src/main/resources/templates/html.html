@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HTML</title>
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div>
+<br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+        <h3 align="center">HTML</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <h4 class="text-info">What is HTML?</h4><br>
+        HTML (Hypertext Markup Language) is not a programming language; it is a markup language used to tell your browser how to structure the web pages you visit. It can be as complicated or as simple as the web developer wishes it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way. The enclosing tags can make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.  For example, take the following line of content:<br><br>
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>1 | My cat is very grumpy</ol>
+
+            </div>
+        </div><br>
+
+        If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph &#60;p&#62; element:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>&#60;p&#62;My cat is very grumpy&#60;/p&#62;</ol>
+
+            </div>
+        </div><br>
+
+
+        <div class="card bg-light text-dark">
+            <div class="card-body">
+
+                <p class="text-danger">Note:</p> Tags in HTML are case-insensitive, i.e. they can be written in uppercase or lowercase. For example, a &#60;title&#62; tag could be written as &#60;title&#62;, &#60;TITLE&#62;, &#60;Title&#62;, &#60;TiTlE&#62;, etc., and it will work fine. Best practice, however, is to write all tags in lowercase for consistency, readability, and other reasons.</p>
+
+            </div>
+        </div><br><br>
+
+
+
+
+
+        <div class="jumbotron" align="bottom">
+
+
+    <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+    <ol class="socialmedia">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+    </ol>
+</div>
+</body>
+</html>

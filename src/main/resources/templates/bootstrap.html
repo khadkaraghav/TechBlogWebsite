@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div>
+<br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+        <h3 align="center">Bootstrap</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <h4 class="text-info">What is Bootstrap and How Do I Use It?</h4><br>
+        If you have any sort of interest in web development, you’ve likely heard of Bootstrap. According to the official website, Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Sounds great! Now how do I use it?<br><br>
+
+        It would be easy to send you over to their Getting Started page and call it a day. Their setup guide is indeed a host of useful information – links to CDNs, explanations on how to install with Bower, npm, and Composer, information on integration with Autoprefixer and LESS, a bunch of templates, licenses, and translations – but it is certainly not a step by step guide to getting started (which very well might be in the spirit of autodidactism).<br><br>
+
+        When I discovered Bootstrap a few years ago, responsive design was still gaining in popularity, and not necessarily the expected norm. Having only ever made websites from scratch, I was a little confused about the entire concept of a framework. I’d imagine it’s even more confusing for beginners who are now expected to learn responsive design concepts and Bootstrap and JavaScript libraries, in addition to HTML, CSS and JS.<br><br>
+
+        This guide is meant as a first look into Bootstrap for beginners, so won’t be going into LESS and Sass integration, which are more intermediate/advanced concepts. While it’s written for the current, stable version Bootstrap 3, the concepts will remain the same for future versions.<br><br>
+
+        <h5 class="text-danger">Goals</h5><br>
+        <li>Learn what a front-end framework is and how it can be useful</li>
+        <li>Understand how to properly include Bootstrap’s CSS and JavaScript and begin customizing</li><br>
+
+        <h5 class="text-danger">Prerequities</h5><br>
+        <li>Basic knowledge and understanding of HTML and CSS</li><br>
+
+
+        <h4 class="text-info"> What is Bootstrap?</h4><br>
+        Bootstrap can be boiled down to three main files:
+
+        <li>bootstrap.css – a CSS framework</li>
+        <li>bootstrap.js – a JavaScript/jQuery framework</li>
+        <li>glyphicons – a font (an icon font set)</li><br><br>
+        Additionally, Bootstrap requires jQuery to function. jQuery is an extremely popular and widely used JavaScript library, that both simplifies and adds cross browser compatibility to JavaScript.<br><br>
+
+        Everything else you might happen across while studying the Bootstrap documentation – Grunt, Gulp, Sass, LESS, bower, npm, etc – is not necessary to get started with Bootstrap. These are task runners, preprocessors, installation aids, and package managers, so don’t be discouraged if you don’t know how to use any of them yet.<br><br>
+
+
+</div>
+</div>
+
+        <div class="jumbotron" align="bottom">
+
+
+            <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+            <ol class="socialmedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+            </ol>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Core Java</title>
+</head>
+<body>
+
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div><br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+
+
+        <h3 align="center">Data Type In Java</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <p>Java language has a rich implementation of data types. Data types specify size and the type of values that can be stored in an identifier.<br><br>
+
+            In java, data types are classified into two catagories :<br>
+
+        <div class="card bg-light text-dark"><h5 class="text-info">Primitive Data type</h5>
+        <h5 class="text-info">Non-Primitive Data type</h5></div><br>
+
+        <h5 class="text-info">1) Primitive Data type :</h5><br>
+            A primitive data type can be of eight types :<br><br>
+
+        <h5 class="text-info" align="center">Primitive Data types</h5><br>
+
+        <div class="col">
+        <div class="row" align="center">
+            <div class="col-sm-1" style="background-color:lavender;">char</div>
+            <div class="col-sm-2" style="background-color:lavenderblush;">boolean</div>
+            <div class="col-sm-1" style="background-color:lavender;">byte</div>
+            <div class="col-sm-1" style="background-color:lavender;">short</div>
+            <div class="col-sm-1" style="background-color:lavenderblush;">int</div>
+            <div class="col-sm-1" style="background-color:lavender;">long</div>
+            <div class="col-sm-1" style="background-color:lavenderblush;">float</div>
+            <div class="col-sm-2" style="background-color:lavender;">double</div>
+        </div>
+        </div>
+<br>
+        <br>
+            Once a primitive data type has been declared its type can never change, although in most cases its value can change. These eight primitive type can be put into four groups:<br><br>
+
+
+        <h5 class="text-info">Integer</h5>
+
+        This group includes : byte, short, int, long.<br>
+
+        <h6 class="text-danger">byte:</h6> It is 1 byte(8-bits) integer data type. Value range from -128 to 127. Default value zero. example: byte b=10;<br>
+
+        <h6 class ="text-danger">short:</h6> It is 2 bytes(16-bits) integer data type. Value range from -32768 to 32767. Default value zero. example: short s=11;<br>
+
+        <h6 class ="text-danger">int:</h6> It is 4 bytes(32-bits) integer data type. Value range from -2147483648 to 2147483647. Default value zero. example: int i=10;<br>
+
+        <h6 class ="text-danger">long:</h6> It is 8 bytes(64-bits) integer data type. Value range from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. Default value zero. example: long l=100012;<br><br>
+
+
+        <h5 class="text-info">Floating-Point Number</h5>
+            This group includes float, double.<br>
+
+        <h6 class="text-danger">float:</h6> It is 4 bytes(32-bits) float data type. Default value 0.0f. example: float ff=10.3f;
+
+    <h6 class="text-danger">double:</h6> It is 8 bytes(64-bits) float data type. Default value 0.0d. example: double db=11.123;
+
+
+        <h5 class="text-info">Characters</h5>
+            This group represent char, which represent symbols in a character set, like letters and numbers.
+
+<h6 class="text-danger">char:</h6> It is 2 bytes(16-bits) unsigned unicode character. Range 0 to 65,535. example: char c='a';
+
+
+        <h5 class="text-info">Boolean</h5>
+            This group represent boolean, which is a special type for representing true/false values. They are defined constant of the language. example: boolean b=true;<br><br>
+
+        <h5 class="text-info">2) Non-Primitive(Reference) Data type</h5>
+            A reference data type is used to refer to an object. A reference variable is declare to be of specific and that type can never be change. We will talk a lot more about reference data type later in Classes and Object lesson.</p>
+
+
+    </div>
+</div>
+</div>
+</div>
+
+<div class="jumbotron" align="bottom">
+
+
+    <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+    <ol class="socialmedia">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+    </ol>
+</div>
+</body>
+</html>

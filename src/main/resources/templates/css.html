@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CSS</title>
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div>
+<br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+        <h3 align="center">CSS</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <h4 class="text-info">What is CSS? And How Does It Relate to HMTL?</h4><br>
+        CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media), CSS comes through and specifies your document’s style—page layouts, colors, and fonts are all determined with CSS. Think of HTML as the foundation (every house has one), and CSS as the aesthetic choices (there’s a big difference between a Victorian mansion and a mid-century modern home).<br><br>
+
+
+        <h4 class="text-info"> How Does CSS Work?</h4><br>
+        CSS brings style to your web pages by interacting with HTML elements. Elements are the individual HTML components of a web page—for instance a paragraph—which in HTML might look like this:<br><br>
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>&#60;p&#62;This is my paragraph!&#60;/p&#62;</ol>
+
+            </div>
+        </div><br>
+
+        If you wanted to make this paragraph appear pink and bold to people viewing your web page through a web browser, you’d use CSS code that looks like this:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>p  {  color:pink;<br>font-weight:bold;  }</ol>
+
+            </div>
+        </div><br>
+
+
+        In this case, “p” (the paragraph) is called the “selector”—it’s the part of CSS code specifying which HTML element the CSS styling will effect. In CSS, the selector is written to the left of the first curly bracket. The information between curly brackets is called a declaration, and it contains properties and values that are applied to the selector. Properties are things like font size, color, and margins, while values are the settings for those properties. In the example above, “color” and “font-weight” are both properties, and “pink” and “bold” are values. The full bracketed set of<br><br>
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>{  color:pink;<br>font-weight:bold;  }</ol>
+
+            </div>
+        </div><br>
+
+
+
+        is the declaration, and again, “p” (meaning the HTML paragraph) is the selector. These same basic principles can be applied to change font sizes, background colors, margin indentations, and more. For instance. . .<br><br>
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>body  {  background-color:lightblue;  }</ol>
+
+            </div>
+        </div><br>
+
+
+        . . .would make your page’s background light blue, or. . .<br><br>
+
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>p  {  font-size:20px;<br>  color:red;  }</ol>
+
+            </div>
+        </div><br>
+
+
+        . . .will create a 20 point font paragraph with red letters.<br><br>
+
+
+
+
+
+
+</div>
+</div>
+
+
+        <div class="jumbotron" align="bottom">
+
+
+            <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+            <ol class="socialmedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+            </ol>
+        </div>
+</body>
+</html>

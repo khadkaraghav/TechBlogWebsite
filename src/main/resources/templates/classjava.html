@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" th:href="@{/style.css}" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gurajada|Just+Another+Hand|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>OBJECT-ORIENTED JAVA</title>
+</head>
+<body>
+
+<div class="jumbotron jumbotron-fluid">
+
+    <h3 class="title" align="left">TECH-BLOG</h3>
+</div>
+
+<div class="container">
+    <div class="box">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="text nav-link" href="indexhome">HOME</a>
+            <a class="text nav-link" href="about">ABOUT THE BOOTCAMP</a>
+            <a class="text nav-link" href="author">BLOG AUTHORS</a>
+        </nav>
+    </div>
+
+</div><br>
+
+<div class="card bg-light text-dark">
+    <div class="card-body">
+        <h3 align="center">Class Definition in Java</h3><br>
+        <h5 align="center">22 February 2019</h5><br>
+
+        <p><h4 class="text-info">Class Definition in Java</h4><br>
+
+        In Java, we use the keyword class to define a class. For examples:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>public class Circle {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       // class name</ol>
+                <ol>double radius;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            // variables</ol>
+                <ol>String color;</ol>
+
+                <ol>double getRadius() { ...... }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  // methods</ol>
+                <ol>double getArea() { ...... }</ol>
+                <ol>}</ol>
+
+            </div>
+        </div><br><br><br>
+
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>public class SoccerPlayer {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       // class name</ol>
+                <ol> int number;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            // variables</ol>
+                <ol> String name;</ol>
+                <ol>int x, y;</ol>
+
+                <ol> void run() { ...... }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  // methods</ol>
+                <ol>void kickBall() { ...... }</ol>
+                <ol>}</ol>
+
+            </div>
+        </div><br><br>
+
+        The syntax for class definition in Java is:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>[AccessControlModifier] class ClassName {</ol>
+                <ol>// Class body contains members (variables and methods)</ol>
+                <ol>......</ol>
+                <ol>}</ol>
+
+            </div>
+        </div><br><br>
+
+        <h4 class="text-info"> Creating Instances of a Class</h4><br>
+        To create an instance of a class, you have to:<br><br>
+
+        <li>Declare an instance identifier (instance name) of a particular class.</li>
+        <li>Construct the instance (i.e., allocate storage for the instance and initialize the instance) using the "new" operator.</li><br><br>
+        For examples, suppose that we have a class called Circle, we can create instances of Circle as follows:<br><br>
+
+        <div class="card bg-dark text-light">
+            <div class="card-body">
+
+                <ol>// Declare 3 instances of the class Circle, c1, c2, and c3</ol>
+                <ol>Circle c1, c2, c3;  // They hold a special value called null</ol>
+                <ol>// Construct the instances via new operator</ol>
+                <ol>c1 = new Circle();</ol>
+                <ol>c2 = new Circle(2.0);</ol>
+                <ol>c3 = new Circle(3.0, "red");</ol>
+
+                <ol>// You can Declare and Construct in the same statement</ol>
+                <ol>Circle c4 = new Circle();</ol>
+
+
+            </div>
+        </div><br>
+
+                When an instance is declared but not constructed, it holds a special value called null.<br><br>
+
+
+
+
+        <div class="jumbotron" align="bottom">
+
+
+            <span class="textbottom" align="center">FOLLOW TECH-BLOG :</span><br><br>
+
+            <ol class="socialmedia">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-snapchat-ghost"></a>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
