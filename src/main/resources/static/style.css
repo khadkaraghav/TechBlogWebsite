@@ -17,10 +17,11 @@
     margin-right:30px;
 }
 
-/*.container{*/
-    /*margin: 95px;*/
+.container{
+    /*margin-left: 95px;*/
+    margin: 0 auto;
 
-/*}*/
+}
 
 .text{
     color: white;
