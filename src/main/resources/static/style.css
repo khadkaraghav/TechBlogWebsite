@@ -12,14 +12,13 @@
 
 .box {
     width: 1000px;
-    margin:-120px;
+    /*margin:-120px;*/
     margin-left: 30px;
     margin-right:30px;
 }
 
 .container{
-    /*margin-left: 95px;*/
-    margin: 0 auto;
+    margin-left: 375px;
 
 }
 
